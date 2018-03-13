@@ -26,7 +26,7 @@ apis:
   tags: Shipping
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/shipping/master/_listings/ebay/order-orderid-shipping-fulfillment-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/shipping/master/_listings/ebay/order-orderid-shipping-fulfillment-fulfillmentid-get.md
 x-common:
 - type: x-blog
   url: https://go.developer.ebay.com/dev-program-blog
