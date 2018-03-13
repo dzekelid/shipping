@@ -29,7 +29,7 @@ apis:
   tags: Shipping
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/shipping/master/_listings/google-content-api-for-shopping/merchantid-accountshipping-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/shipping/master/_listings/google-content-api-for-shopping/merchantid-accountshipping-accountid-get.md
 x-common:
 - type: x-best-practices
   url: https://developers.google.com/shopping-content/v2/best-practices
