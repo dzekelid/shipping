@@ -31,17 +31,18 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/shipping/master/_listings/google-content-api-for-shopping/merchantid-shippingsettings-accountid-put.md
 - name: Google Content API for Shopping API Get Shipping Settings
-  description: Lists the shipping settings of the sub-accounts in your Merchant Center
-    account. This method can only be called for multi-client accounts.
+  description: 'Retrieves the shipping settings of the account. This method can only
+    be called for accounts to which the managing account has access: either the managing
+    account itself or sub-accounts if the managing account is a multi-client account.'
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google-shopping-API1.jpg
   humanURL: https://developers.google.com/shopping-content/v2/quickstart
   baseURL: http:://www.googleapis.com//content/v2
   tags: Shipping
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/shipping/master/_listings/google-content-api-for-shopping/merchantid-shippingsettings-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/shipping/master/_listings/google-content-api-for-shopping/merchantid-shippingsettings-accountid-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/shipping/master/_listings/google-content-api-for-shopping/merchantid-shippingsettings-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/shipping/master/_listings/google-content-api-for-shopping/merchantid-shippingsettings-accountid-get-postman.md
 x-common:
 - type: x-best-practices
   url: https://developers.google.com/shopping-content/v2/best-practices
