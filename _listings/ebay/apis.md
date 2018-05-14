@@ -27,20 +27,25 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/shipping/master/_listings/ebay/order-orderid-shipping-fulfillment-fulfillmentid-get.md
-- name: Ebay Get Order Order Shipping Fulfillment
-  description: Use this call to retrieve the contents of all fulfillments currently
-    defined for a specified order based on the order's unique identifier, orderId.
-    This value is returned in the getOrders call's members.orderId field when you
-    search for orders by creation date or shipment status.
+- name: Ebay Add Order Order Shipping Fulfillment
+  description: 'When you group an order''s line items into one or more packages, each
+    package requires a corresponding plan for handling, addressing, and shipping;
+    this is a shipping fulfillment. For each package, execute this call once to generate
+    a shipping fulfillment associated with that package. Note: A single line item
+    in an order can consist of multiple units of a purchased item, and one unit can
+    consist of multiple parts or components. Although these components might be provided
+    by the manufacturer in separate packaging, the seller must include all components
+    of a given line item in the same package.Before using this call for a given package,
+    you must determine which line items are in the package. If the package has been
+    shipped, you should provide the date of shipment in the request. If not provided,
+    it will default to the current date and time.'
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/138_logo.png
   humanURL: https://ebay.com
   baseURL: https://api.ebay.com//
   tags: Shipping
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/shipping/master/_listings/ebay/order-orderid-shipping-fulfillment-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/shipping/master/_listings/ebay/order-orderid-shipping-fulfillment-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/shipping/master/_listings/ebay/order-orderid-shipping-fulfillment-post.md
 x-common:
 - type: x-blog
   url: https://go.developer.ebay.com/dev-program-blog
