@@ -43,15 +43,15 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/shipping/master/_listings/etsy/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Etsy Post Listings Listing Shipping Info
-  description: Creates a new ShippingInfo.
+- name: Etsy Get Shipping Info Shipping Info
+  description: Retrieves a ShippingInfo by id.
   image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private
   tags: Shipping
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/shipping/master/_listings/etsy/listings-listing-id-shipping-info-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/shipping/master/_listings/etsy/shipping-info-shipping-info-id-get.md
 x-common:
 - type: x-apijson--authoritative
   url: http://apis.io/apisdef/etsy.json
