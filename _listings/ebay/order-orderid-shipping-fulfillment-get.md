@@ -1,12 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Ebay
-  description: The eBay platform offers an unprecedented opportunity to build a new
-    eBay business or expand your current business, reach new customers, and create
-    a potential new stream of revenue. Leverage the resources of the eBay Developers
-    Program to tap into the eBay Marketplace with millions of active users globally,
-    with tools and services that meet the diverse needs of buyers and sellers.
+  title: Ebay Get Order Order Shipping Fulfillment
+  description: Use this call to retrieve the contents of all fulfillments currently
+    defined for a specified order based on the order's unique identifier, orderId.
+    This value is returned in the getOrders call's members.orderId field when you
+    search for orders by creation date or shipment status.
   contact:
     name: eBay Inc.
   version: 1.0.0
