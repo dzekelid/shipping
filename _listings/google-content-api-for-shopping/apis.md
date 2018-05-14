@@ -30,7 +30,25 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/shipping/master/_listings/google-content-api-for-shopping/merchantid-shippingsettings-accountid-put.md
+- name: Google Content API for Shopping API Shipping Settings
+  description: Retrieves and updates the shipping settings of multiple accounts in
+    a single request.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google-shopping-API1.jpg
+  humanURL: https://developers.google.com/shopping-content/v2/quickstart
+  baseURL: http:://www.googleapis.com//content/v2
+  tags: Shipping
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/shipping/master/_listings/google-content-api-for-shopping/shippingsettings-batch-post.md
 x-common:
+- type: x-best-practices
+  url: https://developers.google.com/shopping-content/v2/best-practices
+- type: x-code
+  url: https://developers.google.com/shopping-content/v2/libraries
+- type: x-testing
+  url: https://developers.google.com/shopping-content/v2/how-tos/testing
+- type: x-website
+  url: https://developers.google.com/shopping-content/v2/quickstart
 - type: x-best-practices
   url: https://developers.google.com/shopping-content/v2/best-practices
 - type: x-code
