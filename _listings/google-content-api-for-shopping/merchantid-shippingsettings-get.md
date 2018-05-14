@@ -1,9 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Content API for Shopping
-  description: Manages product items, inventory, and Merchant Center accounts for
-    Google Shopping.
+  title: Google Content API for Shopping API Get Shipping Settings
+  description: Lists the shipping settings of the sub-accounts in your Merchant Center
+    account. This method can only be called for multi-client accounts.
   contact:
     name: Google
     url: https://google.com
