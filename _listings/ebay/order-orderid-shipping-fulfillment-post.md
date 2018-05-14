@@ -1,12 +1,18 @@
 ---
 swagger: "2.0"
 info:
-  title: Ebay
-  description: The eBay platform offers an unprecedented opportunity to build a new
-    eBay business or expand your current business, reach new customers, and create
-    a potential new stream of revenue. Leverage the resources of the eBay Developers
-    Program to tap into the eBay Marketplace with millions of active users globally,
-    with tools and services that meet the diverse needs of buyers and sellers.
+  title: Ebay Add Order Order Shipping Fulfillment
+  description: 'When you group an order''s line items into one or more packages, each
+    package requires a corresponding plan for handling, addressing, and shipping;
+    this is a shipping fulfillment. For each package, execute this call once to generate
+    a shipping fulfillment associated with that package. Note: A single line item
+    in an order can consist of multiple units of a purchased item, and one unit can
+    consist of multiple parts or components. Although these components might be provided
+    by the manufacturer in separate packaging, the seller must include all components
+    of a given line item in the same package.Before using this call for a given package,
+    you must determine which line items are in the package. If the package has been
+    shipped, you should provide the date of shipment in the request. If not provided,
+    it will default to the current date and time.'
   contact:
     name: eBay Inc.
   version: 1.0.0
