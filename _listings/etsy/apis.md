@@ -52,15 +52,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/shipping/master/_listings/etsy/shipping-templates-shipping-template-id-get.md
-- name: Etsy Post Shipping Templates
-  description: Creates a new ShippingTemplate
+- name: Etsy Get Users User Shipping Templates
+  description: Retrieves a set of ShippingTemplate objects associated to a User.
   image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private
   tags: Shipping
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/shipping/master/_listings/etsy/shipping-templates-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/shipping/master/_listings/etsy/users-user-id-shipping-templates-get.md
 x-common:
 - type: x-apijson--authoritative
   url: http://apis.io/apisdef/etsy.json
