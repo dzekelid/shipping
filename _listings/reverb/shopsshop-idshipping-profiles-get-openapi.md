@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Reverb
 x-complete: 0
 info:
-  title: reverb Get Shops Shop Shipping Profiles
+  title: Reverb Get Shops Shop Shipping Profiles
   description: List of shipping profiles for your shop
   termsOfService: https://reverb.com/page/terms
   contact:

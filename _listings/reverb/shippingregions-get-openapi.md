@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Reverb
 x-complete: 0
 info:
-  title: reverb Get Shipping Regions
+  title: Reverb Get Shipping Regions
   description: Get shipping regions.
   termsOfService: https://reverb.com/page/terms
   contact:
